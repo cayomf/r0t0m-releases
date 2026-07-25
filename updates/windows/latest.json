@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
   "platform": "windows-x64",
-  "version": "1.3.0",
-  "buildNumber": 2,
-  "publishedAt": "2026-07-25T18:59:47.082708Z",
-  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.3.0.exe",
-  "sha256": "f0d43d97da5d0c0b4cabb79d0e67d511087acc1aed67e246b2ba0b5b07ebc623",
-  "size": 15323595,
+  "version": "1.3.1",
+  "buildNumber": 3,
+  "publishedAt": "2026-07-25T19:36:14.876502Z",
+  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.3.1.exe",
+  "sha256": "05c3c6e17bb5531c4ddddd6992a4d91ac02b62129c650bc3546d6f47a0dd8bb4",
+  "size": 15467515,
   "releaseNotes": [
     "Conta opcional com login, cadastro e recuperação de senha.",
     "Configurações sincronizadas com proteção contra conflitos.",
-    "Atualizações seguras pelo próprio R0t0m."
+    "Atualizações seguras pelo próprio R0t0m.",
+    "Sincronização iniciada automaticamente após login ou verificação."
   ],
   "mandatory": false,
   "minimumSupportedVersion": "1.3.0"
