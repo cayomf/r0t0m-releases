@@ -1,18 +1,16 @@
 {
   "schemaVersion": 1,
   "platform": "windows-x64",
-  "version": "1.3.3",
-  "buildNumber": 5,
-  "publishedAt": "2026-08-01T19:41:57.892601Z",
-  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.3.3.exe",
-  "sha256": "ea5b6d157ce6b60debc1bc44085807d0774413c8eb28ff2eea4aead32c8d826c",
-  "size": 15499360,
+  "version": "1.3.4",
+  "buildNumber": 6,
+  "publishedAt": "2026-08-01T22:34:23.551566Z",
+  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.3.4.exe",
+  "sha256": "c57d6903dde5120a0276b8e64b305a9448776de4fdfb1917284dd4657a1b92c1",
+  "size": 15499140,
   "releaseNotes": [
-    "Login com Google usando o seletor de contas do navegador.",
-    "Confirmação explícita da conta antes do primeiro envio à nuvem.",
-    "Migração validada dos dados locais com backups de segurança.",
-    "Verificação do snapshot salvo no Firebase antes de concluir o sync.",
-    "Preservação integral de campos nulos e coleções vazias na nuvem."
+    "A atualização agora reabre o R0t0m somente depois que a instalação termina.",
+    "Correção do aviso de atualização repetido após reiniciar.",
+    "A versão instalada continua visível no cabeçalho para conferência."
   ],
   "mandatory": false,
   "minimumSupportedVersion": "1.3.1"
