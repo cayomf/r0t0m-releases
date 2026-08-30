@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "platform": "windows-x64",
-  "version": "1.4.1",
-  "buildNumber": 8,
-  "publishedAt": "2026-08-30T02:49:00.204561Z",
-  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.4.1.exe",
-  "sha256": "5b2c86c9be22fa7f48d44128b81e340f80f54c3dffb96dd52328563f59f39c05",
-  "size": 15193383,
+  "version": "1.4.2",
+  "buildNumber": 9,
+  "publishedAt": "2026-08-30T22:18:03.877628Z",
+  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.4.2.exe",
+  "sha256": "46a8860ae7b226458bbd7eecb49a3f1a93fb5fa8f7332e7120178ebc3ca22348",
+  "size": 15256967,
   "releaseNotes": [
-    "A configuração de conta e login volta a ficar disponível nas instalações oficiais.",
-    "O ponto do teclado numérico pode ser usado como hotkey da rotação.",
-    "A primeira skill após um delay de troca de Pokémon não é mais ignorada."
+    "A recuperação por Pokémon permite definir ordem, item, espera de vida e alvo de cooldown após cada lure.",
+    "Os cooldowns agora são calculados por Pokémon considerando trocas, tempo fora da Pokébola e o instante real de uso das skills.",
+    "A recuperação pode ser interrompida e retomada sem repetir poções e termina com o Pokémon inicial do próximo lure."
   ],
   "mandatory": false,
   "minimumSupportedVersion": "1.3.1"
