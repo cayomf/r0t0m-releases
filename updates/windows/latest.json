@@ -1,15 +1,18 @@
 {
   "schemaVersion": 1,
   "platform": "windows-x64",
-  "version": "1.4.3",
-  "buildNumber": 10,
-  "publishedAt": "2026-09-05T23:07:45.612768Z",
-  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.4.3.exe",
-  "sha256": "282cb2e4e52a0f844558fe9ed1c34bf30f0aeba17f1b191157aa1049b859c5cc",
-  "size": 15256048,
+  "version": "1.5.1",
+  "buildNumber": 12,
+  "publishedAt": "2026-09-10T18:46:33.533940Z",
+  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.5.1.exe",
+  "sha256": "dd49846a4b3a920a8dc7a75483dc65983dcbbc707995ab711f47a0be9dc5d091",
+  "size": 15429275,
   "releaseNotes": [
-    "As skills da rotação NW voltam a enviar a mesma F-key mostrada no editor, preservando rotações anteriores.",
-    "A hotkey escolhida na rotação permanece salva e tem prioridade sobre a hotkey cadastrada no movimento, inclusive após revive."
+    "Otimizador NW com templates por fase do jogador para todos os clãs, usando os Pokémon cadastrados e as características da hunt.",
+    "Planejamento por lure com funções de off-tank, controle e dano, ordem das habilidades em área e cooldown compartilhado das habilidades Shadow.",
+    "Correções no cálculo de preparo dos lures e na recuperação dos cooldowns, respeitando os tempos editados no cadastro.",
+    "Overlay redesenhado com correção da oscilação visual e informações mais claras de execução e recuperação.",
+    "Cadastro de boost e helds dos Pokémon. Rotações compactas dependem de validação na hunt; ciclos automáticos com elixir ou revive permanecem indisponíveis."
   ],
   "mandatory": false,
   "minimumSupportedVersion": "1.3.1"
