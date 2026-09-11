@@ -1,18 +1,16 @@
 {
   "schemaVersion": 1,
   "platform": "windows-x64",
-  "version": "1.5.1",
-  "buildNumber": 12,
-  "publishedAt": "2026-09-10T18:46:33.533940Z",
-  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.5.1.exe",
-  "sha256": "dd49846a4b3a920a8dc7a75483dc65983dcbbc707995ab711f47a0be9dc5d091",
-  "size": 15429275,
+  "version": "1.5.2",
+  "buildNumber": 13,
+  "publishedAt": "2026-09-11T13:57:02.179711Z",
+  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.5.2.exe",
+  "sha256": "903dd5ea7c0977c95f66814256b3f2b9ed2d282b1b650142ae4f4fe321d87fa5",
+  "size": 15430373,
   "releaseNotes": [
-    "Otimizador NW com templates por fase do jogador para todos os clãs, usando os Pokémon cadastrados e as características da hunt.",
-    "Planejamento por lure com funções de off-tank, controle e dano, ordem das habilidades em área e cooldown compartilhado das habilidades Shadow.",
-    "Correções no cálculo de preparo dos lures e na recuperação dos cooldowns, respeitando os tempos editados no cadastro.",
-    "Overlay redesenhado com correção da oscilação visual e informações mais claras de execução e recuperação.",
-    "Cadastro de boost e helds dos Pokémon. Rotações compactas dependem de validação na hunt; ciclos automáticos com elixir ou revive permanecem indisponíveis."
+    "Cooldown full Pokémon: a Potion aguarda uma margem de 1 segundo desde a última troca registrada, evitando envio imediato durante a saída da Pokébola.",
+    "O Pokémon que já está ativo é preservado. O tempo já decorrido é descontado da espera antes da Potion.",
+    "Interromper a espera antes da Potion mantém a etapa pendente; retomar não repete a chamada nem um item já enviado."
   ],
   "mandatory": false,
   "minimumSupportedVersion": "1.3.1"
