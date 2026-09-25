@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
   "platform": "windows-x64",
-  "version": "1.5.2",
-  "buildNumber": 13,
-  "publishedAt": "2026-09-11T13:57:02.179711Z",
-  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.5.2.exe",
-  "sha256": "903dd5ea7c0977c95f66814256b3f2b9ed2d282b1b650142ae4f4fe321d87fa5",
-  "size": 15430373,
+  "version": "1.5.3",
+  "buildNumber": 14,
+  "publishedAt": "2026-09-25T01:45:20.556298Z",
+  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.5.3.exe",
+  "sha256": "67b049d64342263cb58d39cc35cb2f7017d210de6ca3fa88d13565eb02c0375e",
+  "size": 15431450,
   "releaseNotes": [
-    "Cooldown full Pokémon: a Potion aguarda uma margem de 1 segundo desde a última troca registrada, evitando envio imediato durante a saída da Pokébola.",
-    "O Pokémon que já está ativo é preservado. O tempo já decorrido é descontado da espera antes da Potion.",
-    "Interromper a espera antes da Potion mantém a etapa pendente; retomar não repete a chamada nem um item já enviado."
+    "Corrigida a captura da vírgula/ponto do teclado numérico: o gatilho permanece distinto do Delete com Num Lock ligado ou desligado.",
+    "Botões laterais do mouse agora são identificados e suportados como gatilhos. A captura pode ser cancelada e não dispara macros existentes.",
+    "Após atualizar, recapture o gatilho do Revive ou de macros cuja tecla do numpad foi salva como Delete.",
+    "Corrigida a preservação do ponto da NW entre comandos direcionados à janela do jogo."
   ],
   "mandatory": false,
   "minimumSupportedVersion": "1.3.1"
