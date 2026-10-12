@@ -1,18 +1,17 @@
 {
   "schemaVersion": 1,
   "platform": "windows-x64",
-  "version": "1.5.4",
-  "buildNumber": 15,
-  "publishedAt": "2026-10-07T18:19:20.296541Z",
-  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.5.4.exe",
-  "sha256": "ccbb8aa346a06bd909a08e6df9c983c227fd2b24304be4a72860bdd81e0fd6f8",
-  "size": 15432879,
+  "version": "1.6.0",
+  "buildNumber": 16,
+  "publishedAt": "2026-10-12T02:59:32.771694Z",
+  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.6.0.exe",
+  "sha256": "4b98bd88bfbc7e78431adb49d99e43dbe942f92df08c7fda03d6b248874f0fe4",
+  "size": 15520584,
   "releaseNotes": [
-    "Corrigida a captura da vírgula/ponto do teclado numérico: o gatilho permanece distinto do Delete com Num Lock ligado ou desligado.",
-    "Botões laterais do mouse agora são identificados e suportados como gatilhos. A captura pode ser cancelada e não dispara macros existentes.",
-    "Após atualizar, recapture o gatilho do Revive ou de macros cuja tecla do numpad foi salva como Delete.",
-    "Corrigida a preservação do ponto da NW entre comandos direcionados à janela do jogo.",
-    "Sincronizada a posição percebida pelo jogo ao terminar o combo NW, sem mover o cursor físico do mouse."
+    "Novo visual \"Rotom no controle\": moldura escura com contorno laranja e barra de título compacta com o rosto do Rotom, que acende quando há uma rotação ativa e mostra num balão o que está fazendo.",
+    "Menu lateral com Rotações, Meus Pokémons, Otimizador NW, Macros, Gamepad, Jogo e calibração, Configurações do app e Ajuda. O overlay agora liga e desliga pelo interruptor na barra de título.",
+    "Lista de rotações com busca por nome, botão Ativar em cada card e destaque azul \"No controle\" na rotação ativa. Duplicar, exportar e excluir ficam no menu \"⋯\" de cada card.",
+    "Para arrastar ou maximizar a janela com duplo clique, use a área do Rotom na barra de título. A largura mínima da janela passou a ser 1280 px."
   ],
   "mandatory": false,
   "minimumSupportedVersion": "1.3.1"
