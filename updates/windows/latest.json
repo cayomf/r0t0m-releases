@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "platform": "windows-x64",
-  "version": "1.6.0",
-  "buildNumber": 16,
-  "publishedAt": "2026-10-12T02:59:32.771694Z",
-  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.6.0.exe",
-  "sha256": "4b98bd88bfbc7e78431adb49d99e43dbe942f92df08c7fda03d6b248874f0fe4",
-  "size": 15520584,
+  "version": "1.6.1",
+  "buildNumber": 17,
+  "publishedAt": "2026-10-29T07:05:53.489749Z",
+  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.6.1.exe",
+  "sha256": "57bc1b16d77103928c0b649ebe3b88d41a94cfb666131003713e330071f8c745",
+  "size": 16345363,
   "releaseNotes": [
-    "Novo visual \"Rotom no controle\": moldura escura com contorno laranja e barra de título compacta com o rosto do Rotom, que acende quando há uma rotação ativa e mostra num balão o que está fazendo.",
-    "Menu lateral com Rotações, Meus Pokémons, Otimizador NW, Macros, Gamepad, Jogo e calibração, Configurações do app e Ajuda. O overlay agora liga e desliga pelo interruptor na barra de título.",
-    "Lista de rotações com busca por nome, botão Ativar em cada card e destaque azul \"No controle\" na rotação ativa. Duplicar, exportar e excluir ficam no menu \"⋯\" de cada card.",
-    "Para arrastar ou maximizar a janela com duplo clique, use a área do Rotom na barra de título. A largura mínima da janela passou a ser 1280 px."
+    "Suporte ao 8BitDo Ultimate wireless por Bluetooth, com reconhecimento do nome do controle na tela Gamepad e manutenção dos perfis e botões já configurados.",
+    "Ao conectar ou reconectar o controle, solte os botões e deixe os analógicos em repouso antes de usar as ações. A tela Gamepad mostra essa orientação enquanto aguarda.",
+    "Ao desconectar um controle, as teclas mantidas por ele são liberadas. Se outro controle estiver mantendo a mesma tecla, seu comando continua ativo na janela correspondente.",
+    "Os controles conectados mantêm seus slots quando a lista de dispositivos muda. A compatibilidade de outros modelos e modos de conexão depende do suporte e do mapeamento disponíveis."
   ],
   "mandatory": false,
   "minimumSupportedVersion": "1.3.1"
