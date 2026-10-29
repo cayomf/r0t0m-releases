@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "platform": "windows-x64",
-  "version": "1.6.1",
-  "buildNumber": 17,
-  "publishedAt": "2026-10-29T07:05:53.489749Z",
-  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.6.1.exe",
-  "sha256": "57bc1b16d77103928c0b649ebe3b88d41a94cfb666131003713e330071f8c745",
-  "size": 16345363,
+  "version": "1.7.0",
+  "buildNumber": 18,
+  "publishedAt": "2026-10-29T08:29:56.264399Z",
+  "downloadUrl": "https://raw.githubusercontent.com/cayomf/r0t0m-releases/main/updates/windows/R0t0m_Setup_1.7.0.exe",
+  "sha256": "232450d7c6ca16a6e89a645c8432c44b0e39f1deb94e64e7e6e1696b82cc8b95",
+  "size": 16364306,
   "releaseNotes": [
-    "Suporte ao 8BitDo Ultimate wireless por Bluetooth, com reconhecimento do nome do controle na tela Gamepad e manutenção dos perfis e botões já configurados.",
-    "Ao conectar ou reconectar o controle, solte os botões e deixe os analógicos em repouso antes de usar as ações. A tela Gamepad mostra essa orientação enquanto aguarda.",
-    "Ao desconectar um controle, as teclas mantidas por ele são liberadas. Se outro controle estiver mantendo a mesma tecla, seu comando continua ativo na janela correspondente.",
-    "Os controles conectados mantêm seus slots quando a lista de dispositivos muda. A compatibilidade de outros modelos e modos de conexão depende do suporte e do mapeamento disponíveis."
+    "Duplique perfis do gamepad para editar uma cópia independente, inicialmente desativada, sem trocar o perfil selecionado.",
+    "Novo modo Combinação: configure ações para A, B, X, Y e direcional nas camadas Base, LB, RB, LT e RT. LT e RT podem continuar como botões comuns, inclusive para cliques do mouse.",
+    "Associe clique ou botão do mouse mantido, teclas, macros e uma rotação específica por ID. Cada pressão executa uma etapa da rotação escolhida; segurar o botão não repete a ação.",
+    "P1 e P2 reconhecidos separadamente no 8BitDo Ultimate wireless Bluetooth validado. A disponibilidade dos traseiros em outros modelos e modos depende do que o controle expõe ao Windows.",
+    "Movimento contínuo do mouse pelo analógico, liberação de teclas e mouse ao trocar perfil, perder foco ou desconectar, e orientação para soltar os controles antes de retomar. Perfis antigos continuam no modo Comum."
   ],
   "mandatory": false,
   "minimumSupportedVersion": "1.3.1"
